@@ -30,13 +30,11 @@ def start_pannel():
     if not SUPPORT_CHANNEL and not SUPPORT_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="shikhar"
+                
                 ),
             ],
             [
-                InlineKeyboardButton(
-                    text="🔧 Settings", callback_data="settingm"
+                
                 )
             ],
         ]
@@ -44,13 +42,11 @@ def start_pannel():
     if not SUPPORT_CHANNEL and SUPPORT_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="shikhar"
+                
                 ),
             ],
             [
-                InlineKeyboardButton(
-                    text="🔧 Settings", callback_data="settingm"
+                
                 )
             ],
             [
@@ -63,13 +59,11 @@ def start_pannel():
     if SUPPORT_CHANNEL and not SUPPORT_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="shikhar"
+                
                 ),
             ],
             [
-                InlineKeyboardButton(
-                    text="🔧 Settings", callback_data="settingm"
+                
                 )
             ],
             [
@@ -82,13 +76,11 @@ def start_pannel():
     if SUPPORT_CHANNEL and SUPPORT_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="shikhar"
+                
                 ),
             ],
             [
-                InlineKeyboardButton(
-                    text="🔧 Settings", callback_data="settingm"
+                
                 )
             ],
             [
@@ -107,14 +99,11 @@ def private_panel():
     if not SUPPORT_CHANNEL and not SUPPORT_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="shikhar"
+                
                 ),
             ],
             [
-                InlineKeyboardButton(
-                    "➕ Add me to your Group",
-                    url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                ,
                 )
             ],
         ]
@@ -122,14 +111,11 @@ def private_panel():
     if not SUPPORT_CHANNEL and SUPPORT_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="shikhar"
+                
                 ),
             ],
             [
-                InlineKeyboardButton(
-                    "➕ Add me to your Group",
-                    url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                ,
                 )
             ],
             [
@@ -142,14 +128,11 @@ def private_panel():
     if SUPPORT_CHANNEL and not SUPPORT_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="shikhar"
+                
                 ),
             ],
             [
-                InlineKeyboardButton(
-                    "➕ Add me to your Group",
-                    url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                ,
                 )
             ],
             [
@@ -162,14 +145,11 @@ def private_panel():
     if SUPPORT_CHANNEL and SUPPORT_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="shikhar"
+                
                 ),
             ],
             [
-                InlineKeyboardButton(
-                    "➕ Add me to your Group",
-                    url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                ,
                 )
             ],
             [
